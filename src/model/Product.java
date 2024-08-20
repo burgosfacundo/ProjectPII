@@ -1,7 +1,7 @@
 package model;
 
 public class Product {
-    private static int lastId = 0;
+    private static int lastId = 1;
     private final int id;
     private String title;
     private Float price;

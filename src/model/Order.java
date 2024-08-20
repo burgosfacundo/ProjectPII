@@ -1,7 +1,7 @@
 package model;
 
 public class Order {
-    private static int lastId = 0;
+    private static int lastId = 1;
     private final int id;
     private Float total;
     private StatusOrder statusOrder;

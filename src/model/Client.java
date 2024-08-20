@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Client {
-    private static int lastId = 0;
+    private static int lastId = 1;
     private final int id;
     private String name;
     private String lastName;
@@ -12,7 +12,7 @@ public class Client {
     private String postalCode;
     private String address;
     private StatusClient statusClient;
-    private Set<Order> orders = new HashSet<>();
+    private final Set<Order> orders = new HashSet<>();
 
     public Client(String name, String lastName, String city, String postalCode, String address) {
         this.id = lastId++;
